@@ -1,0 +1,11 @@
+tensorflow~=2.19.0
+numpy~=2.0.2
+pandas~=2.2.3
+matplotlib~=3.10.0rc1
+keras~=3.9.2
+sklearn~=0.0
+scikit-learn~=1.6.1
+streamlit~=1.46.1
+folium~=0.20.0
+geopy~=2.4.1
+streamlit_folium~=0.25.0

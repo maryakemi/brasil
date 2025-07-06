@@ -1,11 +1,4 @@
-tensorflow
-numpy
 pandas
-matplotlib
-keras
-sklearn
-scikit-learn
 streamlit
 folium
 geopy
-streamlit_folium

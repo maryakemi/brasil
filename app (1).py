@@ -7,7 +7,7 @@ from time import sleep
 st.set_page_config(page_title="Mapa de Inmuebles", layout="wide")
 
 # Subir archivo Excel
-archivo = pd.read_csv('Lista_imoveis_SP.csv', encoding='latin1', sep=';')
+archivo = pd.read_csv('Lista_imoveis_RJ (1).csv', encoding='latin1', sep=';')
 archivo.drop('Descrição', axis=1, inplace=True)
 archivo.drop(' N° do imóvel', axis=1, inplace=True)
 archivo.drop('Valor de avaliação', axis=1, inplace=True)

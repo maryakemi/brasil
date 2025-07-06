@@ -1,11 +1,8 @@
-
 import streamlit as st
 import pandas as pd
 import folium
-from streamlit_folium import st_folium
 from geopy.geocoders import Nominatim
 from time import sleep
-from io import BytesIO
 
 st.set_page_config(page_title="Mapa de Inmuebles", layout="wide")
 
